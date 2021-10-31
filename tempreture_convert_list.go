@@ -1,3 +1,4 @@
+// Lesson 15
 package main
 
 import (
@@ -11,7 +12,7 @@ var space = 13
 
 func printHeader(s, d string) {
 	fmt.Println(strings.Repeat("=", lineWidth))
-	fmt.Printf("|%v%v%v|%v%v%v|\n", s, strings.Repeat(" ", space), "", d, strings.Repeat(" ", space+2),"")
+	fmt.Printf("|%v%v%v|%v%v%v|\n", s, strings.Repeat(" ", space), "", d, strings.Repeat(" ", space+2), "")
 	fmt.Println(strings.Repeat("=", lineWidth))
 }
 
